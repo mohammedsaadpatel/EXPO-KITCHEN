@@ -1,0 +1,17 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>How EXPO works</title><link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Patrick+Hand&display=swap" rel="stylesheet"><script>try{document.documentElement.dataset.theme=localStorage.getItem("expo.theme")||"dark"}catch(e){document.documentElement.dataset.theme="dark"}</script><link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="css/theme.css"></head><body>
+<div class="sp"></div><nav><a class="logo" href="index.html">EXPO</a><a class="l" href="index.html">Home</a><a class="l" href="how-it-works.html">How it works</a><a class="btn" href="board.html" style="font-size:1.4rem;padding:4px 18px">Open board</a><button class="sw" id="sw" aria-label="Switch light or dark theme"><i></i></button></nav>
+<section><h2 class="rv">How a rush runs on EXPO</h2>
+<div class="tl"><div class="rail"></div><div class="line"></div>
+<div class="step rv r" data-n="1"><h3>Add the order</h3><p>Type the ticket or table, list the items (one per line or comma separated), pick a target time with a preset. Customer allergies are tagged per item and print as a red warning on the receipt.</p></div>
+<div class="step rv r" data-n="2"><h3>Tap items as they finish</h3><p>Every item is a huge button. The progress bar on the card shows how close the order is.</p></div>
+<div class="step rv r" data-n="3"><h3>Watch the board shift</h3><p>Cards turn calm, warning, late. Colour changes, size grows, motion starts. Late cards double in width and flash.</p></div>
+<div class="step rv r" data-n="4"><h3>Send it</h3><p>When all items are ticked the button pulses green. One tap serves the order and dims it.</p></div>
+<div class="step rv r" data-n="5"><h3>Oops? Undo</h3><p>Every action offers an UNDO toast. Ctrl+Z steps back up to 40 actions.</p></div></div></section>
+<section><h2 class="rv">Readable from 2 metres</h2><div class="panel rv z"><div class="size" style="font-size:7rem">T12 · 02:30</div><div class="size" style="font-size:3rem;color:#ffb703">Ticket number 64 px, timers 48 px, items 27 px</div><p>High contrast on near-black, thick borders, 62 px minimum tap targets for gloved hands.</p></div></section>
+<section><h2 class="rv">Urgency states</h2><div class="states">
+<div class="panel rv l st-ok"><h3 class="big" style="color:#2ecc71">CALM</h3><p>Plenty of time. Green, normal size, still.</p></div>
+<div class="panel rv z st-warn"><h3 class="big">WARNING</h3><p>Under 30% of time left or last minute. Amber, larger, pulsing.</p></div>
+<div class="panel rv r st-late"><h3 class="big" style="color:#ff2e2e">LATE</h3><p>Past target. Red, biggest, shaking, screen edge glows.</p></div></div></section>
+<section class="cta"><a class="btn rv" href="board.html">Open the board</a></section>
+<footer class="ft">EXPO · Command the Rush</footer>
+<script src="js/main.js"></script></body></html>
